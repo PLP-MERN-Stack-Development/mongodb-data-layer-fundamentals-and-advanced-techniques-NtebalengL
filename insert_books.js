@@ -131,7 +131,49 @@ const books = [
     in_stock: true,
     pages: 342,
     publisher: 'Thomas Cautley Newby'
-  }
+  },
+    {title:"The Grapes of Wrath", author:"John Steinbeck",genre:"Novel",published_year:1939,
+    price:15, in_stock:false, pages:464, publisher:"Penguin"
+  },
+  {title:"One Hundred Years of Solitude", author:"Gabriel Garcia Marquez",
+    genre:"Magical Realism", published_year:1967, price:16, in_stock:true,
+    pages:417, publisher:"Harper Perennial"
+  },
+  {title:"Beloved", author:"Toni Morrison", genre:"Novel", published_year:1987,
+    price:17, pages:324, publisher:"Alfred A. Knopf"
+  },
+  {title:"The Road", author:"Cormac McCarthy", genre:"Novel", published_year:2006,
+    price:16, pages:241, publisher:"Alfred A. Knopf"
+  },
+  {title:"Think and Grow Rich", author:"Napolean Hill", genre:"Self-help",
+    published_year:1937, price:11.50, pages:400, publisher: "The Ralson Society"
+  },
+  {title: "How to win Friends and Influence People", author: "Dale Carnegie",
+    genre: "Self-help", published_year:1936, price:12, pages:288, publisher:"Simon & Schuster"
+  },
+  {title:"The 7 Habits of Highly Effective People", author:"Stephen R. Covey",
+    genre:"Self-Help", published_year:1989, price:18, pages:381, publisher:
+    "Free Press"
+  },
+  {title:'The Powr of now', genre:"Self-Help", published_year:1997, price:18,
+    pages:236, publisher:"New World Library", author:"Eckhart Tolle"
+  },
+  {title:"Atomic Habits", author:"James Clear", genre:"Self-Help", published_year:2018,
+    price:18, pages:320, publisher:"Avery"
+  },
+  {title:"The Catcher in the Rye", author: "J.D Salinger", genre:"Novel", 
+    published_year:1951, price: 13.50, pages: 214, publisher:"Little, Brown and Company"
+  },
+  {title:"The Story of my life ", author: "Helen Keller", genre:"Autobiography",
+    published_year:1930, price:15, pages:288, publisher:"Scribner"
+  },
+  {title:"Educated", author:"Tara Westover", genre:"Memoir", published_year:2018,
+    price:15.50, pages:334, publisher:"Random House"
+
+  },
+  {title:"Becoming",author:"Michelle Obama", genre:"AutoBiography", published_year:2013,
+    price:30, pages:426, published_year:"Random House"
+   }
 ];
 
 // Function to insert books into MongoDB
